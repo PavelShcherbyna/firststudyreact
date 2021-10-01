@@ -4,7 +4,7 @@ class HelloYa extends Component {
     render() {
         return (
             <div>
-                HelloYa
+                <h1>HelloYa!</h1>
             </div>
         );
     }

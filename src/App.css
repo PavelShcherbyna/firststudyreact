@@ -1,0 +1,27 @@
+.App {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 20px;
+    background: sandybrown;
+    color: white;
+}
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+}
+.nav-links > a {
+    text-decoration: none;
+}
+.nav-links > a > li {
+    color: white;
+
+}

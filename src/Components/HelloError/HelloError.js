@@ -17,7 +17,7 @@ class HelloError extends Component {
 
 
             <div>
-                HelloError
+                <h1>HelloError!</h1>
             </div>
         );
     }
