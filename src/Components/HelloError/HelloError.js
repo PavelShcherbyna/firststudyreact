@@ -10,7 +10,7 @@ class HelloError extends Component {
         try{
             throwErr()
         } catch (error) {
-            console.log(error.name)
+            console.log(error.name);
             console.log(error.message);
         }
         return (

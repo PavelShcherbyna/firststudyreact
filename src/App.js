@@ -1,6 +1,7 @@
 import  React,{Component} from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import './App.css'
+import './App.css';
+// import { IntlProvider } from 'react-intl';
 // components:
 import Nav from './Components/Nav'
 import HelloYa from "./Components/HelloYa";
@@ -14,12 +15,14 @@ class App extends Component{
         <Router>
             <div className='App'>
                 <ErrorBoundary>
-                    <Nav />
-                    <Switch>
-                        <Route exact path='/' component={Home} />
-                        <Route path='/HelloYa' component={HelloYa} />
-                        <Route path='/HelloError' component={HelloError} />
-                    </Switch>
+
+                        <Nav />
+                        <Switch>
+                            <Route exact path='/' component={Home} />
+                            <Route path='/HelloYa' component={HelloYa} />
+                            <Route path='/HelloError' component={HelloError} />
+                        </Switch>
+
                 </ErrorBoundary>
             </div>
         </Router>
